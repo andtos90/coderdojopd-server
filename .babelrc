@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-flow-strip-types",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "src": "./src",
+          "test": "./test"
+        }
+      }
+    ]
+  ]
+}

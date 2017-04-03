@@ -1,0 +1,7 @@
+./src/**/*.test.js
+--compilers js:babel-core/register
+--recursive
+--delay
+--require babel-polyfill
+--require test/setup.js
+--timeout 20000

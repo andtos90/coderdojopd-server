@@ -1,0 +1,17 @@
+{
+  "name": "_User",
+  "schema": {
+    "name": { "type": "String" },
+    "surname": { "type": "String" },
+    "locale": { "type": "String" },
+    "avatar": { "type": "String" }
+  },
+  "permissions": {
+    "get": { "*": true },
+    "find": { "*": true },
+    "create": { "*": true },
+    "update": { "*": true },
+    "delete": { "*": true },
+    "addField": { "*": true }
+  }
+}
